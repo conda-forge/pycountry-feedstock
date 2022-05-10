@@ -1,5 +1,5 @@
 {% set name = "pycountry" %}
-{% set version = "20.7.3" %}
+{% set version = "22.3.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 81084a53d3454344c0292deebc20fcd0a1488c136d4900312cbd465cf552cb42
+  sha256: b2163a246c585894d808f18783e19137cb70a0c18fb36748dc01fc6f109c1646
 
 build:
   noarch: python
